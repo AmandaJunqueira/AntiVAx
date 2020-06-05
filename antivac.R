@@ -18,10 +18,10 @@ library(ggthemes)
 
 #Pass a suite of keys to the API
 antivax <- "antiVac"
-api_key <- "aniswryAG7WzMpVtYEBQladQZ"
-api_secret_key <- "DxB5TuHcV1nWIwXNEStO5YVTwaT1VZgaWWpTgcM8fmWSrgh02B"
-access_token <- "1256519673027403776-XQOYmuvjq43JygeBZg5oA18RQMMwXx"
-access_token_secret <- "dVpEAFTfsnag0gxG6G7BBn4yhJu9PA0TyX6hyPAlV72aH"
+api_key <- *********
+api_secret_key <- *********
+access_token <- ********
+access_token_secret <- ********
 
 # create token named "twitter_token"
 token <- create_token(
@@ -102,8 +102,8 @@ en_counts %>%
 # this requires that you set up a Google Cloud Platform account
 # make sure Geocoding API & Places API are activated
 # introduce here your key:
-set.api.key("AIzaSyDZbrOY3nC-LxyzX0drGHZ7Q00RH9Fack4")
-Sys.getenv("GOOGLE_MAPS_KEY")
+set.api.key ******
+Sys.getenv ******
 # result should be true
 # search tweets from usa
 search_usa <- search_tweets(
@@ -154,6 +154,6 @@ negated_words <- en_clean %>%
   inner_join(AFINN, by = c(word2 = "word")) %>%
   count(word1, word2, value, sort = TRUE)
 
-wordcloud
+
 
 
